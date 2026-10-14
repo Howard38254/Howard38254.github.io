@@ -7,7 +7,7 @@
 - [ ] Confirm Georgia Tech/Rose-Hulman attendance and graduation details.
 - [ ] Choose homepage plus project pages, or one scrolling page.
 - [ ] Confirm featured projects and which may be shown publicly.
-- [x] Choose a separate personal GitHub repository: Howard38254/Howard38254.github.io.
+- [x] Choose a separate personal GitHub repository: HowardHuangME/HowardHuangME.github.io.
 
 ## Content and assets
 - [ ] Find or supply project photos, CAD images, diagrams, and demonstrations.
