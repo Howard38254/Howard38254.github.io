@@ -1,7 +1,7 @@
 # How to edit your website
 
-Website: https://howard38254.github.io/
-Repository: https://github.com/Howard38254/Howard38254.github.io
+Website: https://howardhuangme.github.io/
+Repository: https://github.com/HowardHuangME/HowardHuangME.github.io
 
 ## Easiest: ask Codex
 Open this Portfolio folder and say, for example:
@@ -11,7 +11,7 @@ Open this Portfolio folder and say, for example:
 For changes you want to review first, end the request with “Show me before publishing.” Use docs/EDIT-REQUESTS.md to track edits and elements to preserve.
 
 ## Use the visual template editor
-Online editor: https://howard38254.github.io/editor.html. Edits there change only the browser preview until downloaded and published.
+Online editor: https://howardhuangme.github.io/editor.html. Edits there change only the browser preview until downloaded and published.
 
 1. Open the online editor above.
 2. Change the accent or page color using the controls at the top.
