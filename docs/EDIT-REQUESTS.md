@@ -1,4 +1,15 @@
-# Refined Builder — your edits
+# Current portfolio — your edits
+
+Current direction: Bike Bear inspired yellow design, requested October 13, 2026. Current files: index.html, site.css, site.js; visual editor: /editor.html. Record edits below using the section names in docs/BIKEBEAR-DESIGN.md. The previous Refined Builder choices below are archived reference notes, not the current site's settings.
+
+## Current design changes
+- Yellow background: KEEP / CHANGE / UNDECIDED
+- Green accent: KEEP / CHANGE / UNDECIDED
+- Animated robot mascot: KEEP / CHANGE / UNDECIDED
+- Oversized heading and text strips: KEEP / CHANGE / UNDECIDED
+- Sticky three-chapter section: KEEP / CHANGE / UNDECIDED
+- Four-project gallery: KEEP / CHANGE / UNDECIDED
+- Additional changes:
 
 Edit any value below. Use KEEP for something you want preserved, CHANGE for a requested edit, or UNDECIDED.
 
