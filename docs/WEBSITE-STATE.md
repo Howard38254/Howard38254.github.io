@@ -2,7 +2,7 @@
 
 Updated: October 13, 2026
 
-Stage: first website version published and verified live. Repository: https://github.com/Howard38254/Howard38254.github.io. Website: https://howard38254.github.io/.
+Stage: first website version published and verified live. Repository: https://github.com/HowardHuangME/HowardHuangME.github.io. Website: https://howardhuangme.github.io/.
 
 Current redesign: Bike Bear inspired yellow portfolio. Source: index.html, site.css, site.js. Visual editor: editor.html. Previous Refined Builder template retained as an archive. No build required. Publishing was explicitly authorized by Howard on October 13, 2026; redesign requested in the same session.
 
@@ -25,7 +25,7 @@ Redesign verification: syntax check passed; desktop and 390px mobile opening vis
 - Chat: Find Engineering Portfolios; available response was a content reference, not readable examples.
 - Chat: Inertial considerations research; selected recent turns contain research drafting, not verified project outcomes.
 - Codex chat: Analyze bearing preload and fits; confirms ongoing FSAE engineering analysis.
-- GitHub connector: Howard38254/morph-lab.github.io is accessible and public. Repository contents have not yet been reviewed.
+- GitHub connector: HowardHuangME/morph-lab.github.io is accessible and public. Repository contents have not yet been reviewed.
 
 Access limitation: recent chat listing plus selected older threads are available; complete ChatGPT history and all uploaded attachments have not been reviewed. Do not describe this inventory as exhaustive.
 
