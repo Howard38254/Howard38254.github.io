@@ -3,3 +3,10 @@ template/editor-preview.png
 deployment-preview.png
 node_modules/
 *.log
+
+# Local preview and quality checks
+tmp/
+*-preview.png
+preview.cjs
+template/preview.cjs
+!assets/*-preview.png

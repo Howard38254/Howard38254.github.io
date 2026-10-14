@@ -50,4 +50,8 @@ GitHub Pages serves main from the repository root. Save updated index.html, site
 
 The repository is public, including these documentation and template files. Keep passwords, unpublished private material, and confidential project files out of it.
 
-This version has résumé-derived experience, four project descriptions, and a brief interests section. Actual project images, résumé download, education details, and expanded case studies remain future work.
+This version has résumé-derived experience, four project descriptions, and a brief interests section. Actual project images, a newer résumé PDF, education details, and expanded case studies remain future work. The fixed middle-left Resume tab provides view/download access to the existing September 10 PDF.
+
+## Current interactive features
+
+The 3D mascot is in robot.js with a locally bundled Three.js dependency in assets/vendor. The animated timeline and dialog behavior are in site.js. The left Resume tab uses assets/Howard-Huang-Resume.pdf and its image preview. Keep these assets together when publishing. Tab color and menu transitions are in site.css. WEBSITE-CONTENT.md is the primary content and design specification.

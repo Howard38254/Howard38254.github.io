@@ -7,3 +7,35 @@ dialog{border:0;padding:60px 5vw;background:var(--yellow);color:var(--ink)}dialo
 @media(max-width:760px){.robot-scene{scale:1;translate:none;transform:translate(-50%,-44%) scale(.75);top:50%}}
 html:not(.js) .chapter-one{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1!important;transform:none!important}.hero-pin h1{transform:none!important}}
+
+/* The original CSS character is the no-WebGL fallback. */
+.robot-scene canvas{display:block;width:100%;height:100%;position:absolute;inset:0;pointer-events:none}.robot-scene.has-3d>.robot-body,.robot-scene.has-3d>.robot-shadow{display:none}
+
+/* Hover expands the fixed circular menu into the existing controls pill. */
+.header-controls{width:58px;height:58px;gap:0;transition:width .48s cubic-bezier(.22,1,.36,1);overflow:visible}
+.header-controls #motion{position:absolute;left:5px;top:5px;width:48px;height:48px;opacity:0;transform:scale(.65);pointer-events:none;transition:opacity .2s,transform .4s cubic-bezier(.22,1,.36,1)}
+.header-controls #menu-toggle{position:absolute;right:5px;top:5px;width:48px;height:48px;padding:0;display:flex;align-items:center;justify-content:flex-end;transition:width .48s cubic-bezier(.22,1,.36,1)}
+.header-controls #menu-toggle .menu-icon{display:flex;align-items:center;justify-content:center;flex:0 0 48px;font-size:20px;margin:0}
+.header-controls #menu-toggle .menu-label{font-size:12px;margin:0;opacity:0;transform:translateX(12px);transition:opacity .18s,transform .4s cubic-bezier(.22,1,.36,1)}
+.header-controls:hover,.header-controls:focus-within{width:186px}
+.header-controls:hover #menu-toggle,.header-controls:focus-within #menu-toggle{width:118px}
+.header-controls:hover #motion,.header-controls:focus-within #motion{opacity:1;transform:scale(1);pointer-events:auto;transition-delay:.08s}
+.header-controls:hover .menu-label,.header-controls:focus-within .menu-label{opacity:1!important;transform:translateX(0)!important;transition-delay:.1s!important}
+@media(max-width:760px){.header-controls{width:52px;height:52px}.header-controls #motion{width:42px;height:42px;min-width:42px}.header-controls #menu-toggle{width:42px;height:42px}.header-controls #menu-toggle .menu-icon{flex-basis:42px}.header-controls #menu-toggle .menu-label{font-size:10px}.header-controls:hover,.header-controls:focus-within{width:166px}.header-controls:hover #menu-toggle,.header-controls:focus-within #menu-toggle{width:109px}}
+@media(hover:none){.header-controls{width:186px}.header-controls #menu-toggle{width:118px}.header-controls #motion{opacity:1;transform:none;pointer-events:auto}.header-controls #menu-toggle .menu-label{opacity:1;transform:none}}
+@media(hover:none) and (max-width:760px){.header-controls{width:166px}.header-controls #menu-toggle{width:109px}}
+@media(prefers-reduced-motion:reduce){.header-controls,.header-controls *{transition:none!important}}
+
+.resume-tab{position:fixed;left:0;top:50%;transform:translateY(-50%);z-index:12;writing-mode:vertical-rl;rotate:180deg;background:#9bd4d7;color:var(--ink);border:0;border-radius:10px 0 0 10px;padding:22px 13px;font-size:13px;font-weight:700;letter-spacing:1px;transition:padding .25s,background .25s}.resume-tab:hover{background:#86c7cb;padding-right:18px;padding-left:18px}.resume-dialog{width:min(1000px,94vw);height:90svh;max-height:90svh;border-radius:12px;padding:24px;background:var(--paper);overflow:auto}.resume-dialog h2{font-size:clamp(20px,3vw,32px);margin:12px 65px 22px 0}.resume-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}.resume-actions a{border:1px solid;border-radius:30px;padding:12px 18px;font-size:12px;font-weight:700}.resume-actions a:last-child{background:var(--green)}.resume-dialog img{width:100%;height:auto;display:block;background:white}.resume-dialog .dialog-close{width:44px;height:44px;font-size:30px}@media(max-width:760px){.resume-tab{font-size:11px;padding:18px 10px}.resume-dialog{padding:18px}}
+
+.journey-timeline{--timeline-progress:0;position:relative;list-style:none;padding:0;margin:0 0 0 24px;max-width:1000px}
+.journey-timeline:before,.journey-timeline:after{content:'';position:absolute;left:0;top:24px;bottom:24px;width:3px;border-radius:3px;background:#10101022}
+.journey-timeline:after{background:var(--ink);transform:scaleY(var(--timeline-progress));transform-origin:top;transition:transform .22s linear}
+.timeline-entry{position:relative;display:grid;grid-template-columns:70px 1fr;gap:20px;padding:0 0 55px 36px}
+.timeline-entry:last-child{padding-bottom:0}.timeline-dot{position:absolute;left:-9px;top:17px;width:21px;height:21px;border:3px solid var(--ink);border-radius:50%;background:var(--green);z-index:1;box-shadow:0 0 0 7px #e0e9e8}
+.timeline-index{padding-top:19px;font-size:12px;letter-spacing:1px;color:#36584c}.timeline-entry article{background:var(--paper);border:1px solid #10101025;border-radius:20px;padding:28px 32px;transition:transform .35s,box-shadow .35s}.timeline-entry article:hover{transform:translateX(6px);box-shadow:-6px 6px 0 var(--green)}
+.timeline-date{display:inline-block;background:var(--green);border-radius:30px;padding:7px 13px;font-size:12px;font-weight:700}.timeline-entry h3{font-size:clamp(24px,3.3vw,46px);letter-spacing:-1px;margin:18px 0 12px}.timeline-entry p{font-size:16px;line-height:1.5;margin:0;max-width:650px}.timeline-project{border:0;border-bottom:1px solid;background:none;padding:16px 0 6px;font-size:11px;font-weight:700;margin-top:12px}.timeline-project span{margin-left:20px}
+.timeline-interests{margin:50px 0 0 150px;font-size:11px;letter-spacing:1px;line-height:1.8}.timeline-interests>span:last-child{font-size:16px;letter-spacing:0;display:inline-block;margin-top:8px}
+.paused .journey-timeline:after{transform:scaleY(1);transition:none}.paused .timeline-entry{opacity:1!important;transform:none!important}
+@media(max-width:760px){.journey-timeline{margin-left:18px}.timeline-entry{grid-template-columns:1fr;gap:0;padding:0 0 28px 25px}.timeline-index{display:none}.timeline-entry article{padding:22px 20px;border-radius:14px}.timeline-entry h3{font-size:26px}.timeline-entry p{font-size:14px}.timeline-interests{margin:35px 0 0 43px}.timeline-entry article:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){.journey-timeline:after{transform:scaleY(1);transition:none}}

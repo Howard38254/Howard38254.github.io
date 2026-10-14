@@ -2,6 +2,8 @@
 
 Current direction: Bike Bear inspired yellow design, requested October 13, 2026. Current files: index.html, site.css, site.js; visual editor: /editor.html. Record edits below using the section names in docs/BIKEBEAR-DESIGN.md. The previous Refined Builder choices below are archived reference notes, not the current site's settings.
 
+Primary editing source: WEBSITE-CONTENT.md; it takes precedence over this older checklist. Current features include the real 3D robot, animated circle-to-pill menu, pale-blue left Resume tab, and animated overview timeline.
+
 ## Current design changes
 - Yellow background: KEEP / CHANGE / UNDECIDED
 - Green accent: KEEP / CHANGE / UNDECIDED

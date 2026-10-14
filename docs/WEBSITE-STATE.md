@@ -1,14 +1,26 @@
 # Website state
 
-Updated: October 13, 2026
+Updated: October 14, 2026
 
-Stage: first website version published and verified live. Repository: https://github.com/HowardHuangME/HowardHuangME.github.io. Website: https://howardhuangme.github.io/.
+Stage: all October 14 updates authorized for publication; deployment verification pending. Repository: https://github.com/HowardHuangME/HowardHuangME.github.io. Website: https://howardhuangme.github.io/.
 
-Current redesign: Bike Bear inspired yellow portfolio. Source: index.html, site.css, site.js. Visual editor: editor.html. Previous Refined Builder template retained as an archive. No build required. Publishing was explicitly authorized by Howard on October 13, 2026; redesign requested in the same session.
+Current redesign: Bike Bear inspired yellow portfolio. Source: index.html, site.css, site.js, robot.js and assets/. Visual editor: editor.html. Previous Refined Builder template retained as an archive. No build required. Publishing was explicitly authorized by Howard on October 13, 2026; redesign requested in the same session.
 
 New sections: three approach chapters, about, skills, experience, four-project gallery, personal interests, contact. New motion: pointer/scroll robot response, arm wave, moving text strips, sticky chapters, reveals, hover treatments, rotating badges. See docs/BIKEBEAR-DESIGN.md for fidelity limits and editing map.
 
 Redesign verification: syntax check passed; desktop and 390px mobile opening visually inspected; mobile page has no horizontal document overflow; menu navigation, pinball detail, Escape closing, editor text editing checked locally; redesigned homepage and full-screen menu verified live. Exact reference animation parity remains unverified because the reference failed to load during this build.
+
+October 14, 2026: Name placement changes reverted; original header restored. No publication made.
+
+October 14, 2026: Original 3D robot upgrade applied locally using WebGL and bundled Three.js; eased scroll/pointer motion, rounded joints, lighting, blinking and wave. CSS fallback retained. Desktop and mobile rendering, click-to-wave, and pause/resume checked; publication authorized October 14; deployment verification pending.
+
+October 14, 2026: Top-right controls now animate from a white circle to the full pill on hover or keyboard focus; touch devices retain the expanded controls. Applied locally; publication pending.
+
+October 14, 2026: Fixed vertical Resume tab added at the middle-left edge, opening a dialog with view/download options. Uses assets/Howard-Huang-Resume.pdf copied from the existing September 10 PDF. Newer Word-to-PDF conversion unavailable (LibreOffice missing). Applied locally; publication pending.
+
+October 14, 2026: Experience converted to an animated vertical overview timeline spanning robotics, research, entrepreneurship, and pinball, with an interests note. Existing project dialogs reused; education dates remain pending confirmation. Applied locally; publication pending.
+
+October 14, 2026: User authorized publication of all updates, including the final pale-blue (#9BD4D7) Resume tab. WEBSITE-CONTENT.md takes precedence over older guides.
 
 ## Confirmed requirements
 - Employer-facing personal portfolio for Howard Huang.

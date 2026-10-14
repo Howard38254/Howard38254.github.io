@@ -2,7 +2,7 @@
 
 Website: https://howardhuangme.github.io/
 Last synchronized: October 14, 2026
-Status: matches the current website; no content changes pending.
+Status: matches the local website; 3D robot, animated menu, résumé tab, and animated timeline applied locally, publication authorized October 14, 2026; deployment pending.
 
 ## How to use this document
 
@@ -55,7 +55,8 @@ Status: KEEP
 - Brand: HH / HOWARD HUANG; links to home.
 - Menu links, in order: ABOUT → about; SKILLS → skills; EXPERIENCE → experience; PROJECTS → work; ACTIVITIES → activities; CONTACT → contact.
 - Motion control: pause/resume animations.
-- Menu style: full-screen overlay with large links.
+- Menu style: full-screen overlay with large links. Top-right trigger begins as a white circle with a hamburger icon; on hover or keyboard focus it smoothly expands left into the white pill with green motion control and MENU label. Collapses on pointer/focus exit. Touch devices keep the full pill accessible; reduced-motion preferences disable the transition.
+- Résumé tab: fixed vertical Resume tab at the middle-left edge; Bike Bear’s pale blue (#9bd4d7), verified from its left-side award tab SVG; dark text for readability and a slightly deeper blue (#86c7cb) hover state. Opens a résumé dialog with a readable image preview of the PDF, OPEN PDF in a new tab, DOWNLOAD PDF, close button, and Escape support. Asset: assets/Howard-Huang-Resume.pdf; source: existing Huang_Howard_Resume_9-10-2026.pdf. The newer Word résumé could not be converted because LibreOffice is unavailable.
 - Project detail style: dialog with close button and Escape support.
 
 Requested changes: None.
@@ -80,8 +81,9 @@ Moving text strip:
 
 DESIGN WITH CURIOSITY ✳ BUILD WITH PURPOSE ✳ TEST. LEARN. REFINE. ✳
 
-Visual: animated robot overlapping the oversized headline.
+Visual: real WebGL 3D black robot overlapping the oversized headline; rounded metallic shell, articulated joints, green eyes, HH chest badge, studio lighting, and soft grounding shadow. Original CSS robot remains as a fallback if WebGL is unavailable.
 Layout: full-screen yellow opening; large headline moves with scrolling.
+Motion: frame-rate-independent easing for pointer tilt and scroll rotation; gentle floating, blinking eyes, and an articulated click/keyboard-triggered wave. Pause and reduced-motion controls freeze the 3D animation. Rendering stops when the hero is offscreen or the page is hidden.
 
 Requested changes: None.
 
@@ -177,6 +179,8 @@ Status: KEEP
 Label: EXPERIENCE
 Headline: RESEARCH. / BUILD. LEAD.
 
+Layout: vertical animated timeline covering the engineering journey, ordered by start year: FIRST Robotics → Caltech research → Startup Weekend → Rose-Hulman research → two-player pinball. Milestones show a brief description; project buttons open the existing matching detail dialogs. The line fills as the visitor scrolls and cards reveal as they enter view. Pause/reduced-motion settings show a static timeline. Responsive single-column layout. Education dates remain pending confirmation.
+
 ### Rose-Hulman
 
 Dates: 2025–2026
@@ -191,6 +195,18 @@ Description: Student researcher · Architected materials
 
 Dates: 2020–2024
 Description: Engineering VP · Mechanical design and team leadership
+
+### Startup Weekend
+
+Dates: 2024
+Description: Entrepreneurship · Business model, prototyping, and customer research
+
+### Two-player pinball
+
+Dates: 2025
+Description: Course project · Mechanical systems, sensing, and Arduino control
+
+Timeline closing note: BEYOND ENGINEERING ↗ / Aviation, guitar, water polo, travel, and the next thing to build.
 
 Moving tools strip: PYTHON ✳ SOLIDWORKS ✳ MATLAB ✳ ANSYS ✳ ARDUINO ✳
 
@@ -358,7 +374,7 @@ Copyright: © 2026 HOWARD HUANG
 Back-to-top link: BACK TO TOP ↑ → home
 
 Contact form: Not currently implemented.
-Résumé download: Not currently implemented.
+Résumé download: assets/Howard-Huang-Resume.pdf via the middle-left Resume tab.
 LinkedIn: Not supplied.
 
 Requested changes: None.
@@ -394,16 +410,32 @@ Requested changes:
 ## Pending work
 
 - Actual project images and CAD renders.
-- Downloadable résumé.
+- Replace the September 10 résumé PDF with a newer PDF when supplied or converted.
 - Confirm education dates and current status before adding education.
 - Confirm specific career targets.
 - Expanded project results, links, and evidence.
 
 ## Synchronization record — maintained by Codex
 
+- October 14, 2026: User authorized publication of all completed changes. Reconciled page order, navigation destinations, four project details, timeline links, and résumé assets. Publishing the 3D robot, circle-to-pill menu, pale-blue left Resume tab, animated timeline, and current username links; deployment verification pending.
+
+- October 14, 2026: Completed the corrected Resume tab color match to Bike Bear’s left-side tab fill #9BD4D7, verified directly from its homepage SVG. Dark text preserves readability; navigation status remains KEEP. Applied locally; publication pending.
+
+- October 14, 2026: Completed the Resume tab color change to blue with white text and darker blue hover. Navigation status remains KEEP; placement, behavior, content, assets, and destinations unchanged. Applied locally; publication pending.
+
+- October 14, 2026: Completed the brief animated overview timeline in the existing Experience section, using existing website/résumé dates and descriptions. Added Startup Weekend and pinball summaries and a personal-interests note; project buttons reuse existing detail dialogs. Experience status remains KEEP; section order, navigation, gallery content, assets, and destinations preserved. Verified scroll progress, project dialog opening/closing, and mobile layout without horizontal overflow.
+
+- October 14, 2026: Completed the fixed vertical Resume tab at the middle-left edge, with résumé preview and PDF open/download and dialog closing. Copied the existing September 10 résumé PDF without editing its content; visually checked its one-page layout. Navigation and contact statuses remain KEEP. Other sections, menu links, projects, and destinations preserved.
+
+- October 14, 2026: Completed the circle-to-pill hover animation for the top-right controls, including keyboard focus and touch access. Navigation status remains KEEP; section order, links, projects, and assets unchanged.
+
+- October 14, 2026: Completed the robot depth and smoothness upgrade using an original procedural 3D model and locally bundled Three.js. Home status remains KEEP; section order, navigation, project details, and destinations preserved. Desktop and mobile rendering, click-to-wave, and pause/resume checked; exact Bike Bear animation parity not verified because the reference site timed out.
+
+- October 14, 2026: Reverted the name placement changes from this chat; restored the original HH / stacked name header and mobile controls. No publication was made.
+
 - October 14, 2026: Updated website address, GitHub links, and local remote for the new username HowardHuangME.
 
 - October 13, 2026: Created this document from current index.html and site.js. No website content or design changes made.
-- Website files: index.html (structure and visible copy), site.js (project details and behavior), site.css (appearance), editor.html (visual editor).
+- Website files: index.html (structure and visible copy), site.js (project details and behavior), robot.js (3D mascot and eased hero motion), assets/vendor (Three.js and license), site.css (appearance), editor.html (visual editor).
 - Current pending changes: None.
-- Publication state: Current website already live; this document is a planning/editing source, not an automatic publishing system.
+- Publication state: All completed changes authorized for publication October 14, 2026; deployment verification pending.

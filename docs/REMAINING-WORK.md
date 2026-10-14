@@ -1,12 +1,12 @@
 # Remaining work
 
 ## Decisions needed before building
-- [x] Choose a visual direction: Refined Builder.
-- [ ] Review the editable template and specify desired changes.
+- [x] Choose a visual direction: Bike Bear inspired current site (Refined Builder archived).
+- [x] Review and refine the current website through chat.
 - [ ] Confirm current résumé and career targets.
 - [ ] Confirm Georgia Tech/Rose-Hulman attendance and graduation details.
-- [ ] Choose homepage plus project pages, or one scrolling page.
-- [ ] Confirm featured projects and which may be shown publicly.
+- [x] Use one scrolling page with project detail dialogs.
+- [x] Publish the four selected project summaries as authorized.
 - [x] Choose a separate personal GitHub repository: HowardHuangME/HowardHuangME.github.io.
 
 ## Content and assets
@@ -14,14 +14,15 @@
 - [ ] Select headshot if desired.
 - [ ] Confirm project metrics and conference status.
 - [ ] Add LinkedIn if desired.
-- [ ] Select résumé PDF for public download.
+- [x] Add résumé PDF view/download (existing September 10 PDF).
+- [ ] Replace with newer résumé PDF when available.
 
 ## Build and review
-- [ ] Implement approved responsive design.
-- [ ] Write project case studies from verified source material.
-- [ ] Add useful motion with reduced-motion support.
-- [ ] Check mobile layout, keyboard navigation, links, and résumé download.
-- [ ] Obtain Howard's review of the concrete website preview.
+- [x] Implement approved responsive design.
+- [x] Add four project summaries based on the supplied résumé.
+- [x] Add useful motion with reduced-motion support.
+- [x] Check mobile layout, keyboard controls, project links, and résumé file destination.
+- [x] Obtain Howard's review and October 14 publication authorization.
 
 ## GitHub and launch
 - [x] Create or select repository.
