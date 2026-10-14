@@ -2,7 +2,9 @@
 
 Updated: October 13, 2026
 
-Stage: content discovery and design review. A separate public repository has been created: https://github.com/Howard38254/Howard38254.github.io. No production website or deployment yet. Planning documents remain local.
+Stage: first website version published and verified live. Repository: https://github.com/Howard38254/Howard38254.github.io. Website: https://howard38254.github.io/.
+
+Public homepage: index.html. Design source and visual editor: template/refined-builder.html. Rebuild command: node build.cjs. Website files and Markdown documentation are saved on GitHub and locally. Publishing was explicitly authorized by Howard on October 13, 2026.
 
 ## Confirmed requirements
 - Employer-facing personal portfolio for Howard Huang.
@@ -36,6 +38,6 @@ Access limitation: recent chat listing plus selected older threads are available
 Metrics in the résumé are user-provided claims, not independently verified. Confirm project ownership, final outcomes, conference submission status, and public-use permission for assets before publishing.
 
 ## Approval record
-Howard selected Refined Builder on October 13, 2026. Editable standalone template: template/refined-builder.html. Breakdown: docs/REFINED-BUILDER-BREAKDOWN.md. Edit requests: docs/EDIT-REQUESTS.md.
+Howard selected Refined Builder on October 13, 2026 and requested publication. Editable standalone template: template/refined-builder.html. Breakdown: docs/REFINED-BUILDER-BREAKDOWN.md. Edit requests: docs/EDIT-REQUESTS.md. Editing guide: docs/HOW-TO-EDIT.md.
 
-Template includes color controls, text editing, and edited-HTML download. Text-edit mode and project detail opening were checked in Chrome. Full responsive and accessibility verification remains pending. Career target, final content, page structure, and publishing date remain unapproved.
+Template includes color controls, text editing, and edited-HTML download. Text-edit mode and project detail opening were checked in Chrome. Live homepage, menu, UAV detail, and email/telephone link destinations were verified after deployment. Full mobile and accessibility verification remains pending. Howard approved publishing this selected version; career targeting and expanded content still need review.
