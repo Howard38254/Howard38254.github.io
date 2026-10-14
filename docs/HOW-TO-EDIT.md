@@ -11,6 +11,8 @@ Open this Portfolio folder and say, for example:
 For changes you want to review first, end the request with “Show me before publishing.” Use docs/EDIT-REQUESTS.md to track edits and elements to preserve.
 
 ## Use the visual template editor
+Online editor: https://howard38254.github.io/template/refined-builder.html. Edits there change only the local browser preview until downloaded, rebuilt, and published.
+
 1. Open template/refined-builder.html in Chrome by double-clicking it.
 2. Change the accent or page color using the controls at the top.
 3. Turn on Edit text, then click the headline, introduction, ribbon, or project names to rewrite them.
