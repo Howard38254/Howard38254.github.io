@@ -1,7 +1,7 @@
 # Howard Huang — website content and editing plan
 
-Website: https://howard38254.github.io/
-Last synchronized: October 13, 2026
+Website: https://howardhuangme.github.io/
+Last synchronized: October 14, 2026
 Status: matches the current website; no content changes pending.
 
 ## How to use this document
@@ -353,7 +353,7 @@ Identity: HOWARD HUANG / MECHANICAL ENGINEERING
 Email: howardhuang43@gmail.com
 Phone: (626) 492-6728
 Phone link: tel:+16264926728
-GitHub: https://github.com/Howard38254
+GitHub: https://github.com/HowardHuangME
 Copyright: © 2026 HOWARD HUANG
 Back-to-top link: BACK TO TOP ↑ → home
 
@@ -400,6 +400,8 @@ Requested changes:
 - Expanded project results, links, and evidence.
 
 ## Synchronization record — maintained by Codex
+
+- October 14, 2026: Updated website address, GitHub links, and local remote for the new username HowardHuangME.
 
 - October 13, 2026: Created this document from current index.html and site.js. No website content or design changes made.
 - Website files: index.html (structure and visible copy), site.js (project details and behavior), site.css (appearance), editor.html (visual editor).
