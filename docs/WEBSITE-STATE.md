@@ -8,6 +8,8 @@ Current redesign: Bike Bear inspired yellow portfolio. Source: index.html, site.
 
 New sections: three approach chapters, about, skills, experience, four-project gallery, personal interests, contact. New motion: pointer/scroll robot response, arm wave, moving text strips, sticky chapters, reveals, hover treatments, rotating badges. See docs/BIKEBEAR-DESIGN.md for fidelity limits and editing map.
 
+Redesign verification: syntax check passed; desktop and 390px mobile opening visually inspected; mobile page has no horizontal document overflow; menu navigation, pinball detail, Escape closing, editor text editing checked locally; redesigned homepage and full-screen menu verified live. Exact reference animation parity remains unverified because the reference failed to load during this build.
+
 ## Confirmed requirements
 - Employer-facing personal portfolio for Howard Huang.
 - Include projects, experience, activities, résumé, and contact information.
