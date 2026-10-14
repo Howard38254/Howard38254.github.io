@@ -25,7 +25,7 @@
 
 ## GitHub and launch
 - [x] Create or select repository.
-- [ ] Save source, documentation, and approved assets.
-- [ ] Configure GitHub Pages.
-- [ ] Publish after Howard approves the finished preview.
-- [ ] Verify deployed website and update state and editing instructions.
+- [x] Save source and documentation. Additional project assets still needed.
+- [x] Configure GitHub Pages (main branch, repository root).
+- [x] Upload the selected design for publication after Howard's explicit request.
+- [x] Verify deployed homepage, menu, UAV detail, contact links; update state and editing instructions.
