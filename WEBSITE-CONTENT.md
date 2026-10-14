@@ -2,7 +2,7 @@
 
 Website: https://howardhuangme.github.io/
 Last synchronized: October 14, 2026
-Status: matches the local website; 3D robot, animated menu, résumé tab, and animated timeline applied locally, publication authorized October 14, 2026; deployment pending.
+Status: synchronized with the published website; all requested changes completed.
 
 ## How to use this document
 
@@ -417,6 +417,8 @@ Requested changes:
 
 ## Synchronization record — maintained by Codex
 
+- October 14, 2026: Published all completed changes to https://howardhuangme.github.io/ (website commit 015bdad). Verified live index.html, site.css, site.js, robot.js, Three.js, résumé PDF, and preview image match the local files. Live 3D rendering and résumé dialog checked. The original header remains after the requested reversal; all active section statuses are KEEP. The older résumé PDF and missing project photography remain future work, not pending publication.
+
 - October 14, 2026: User authorized publication of all completed changes. Reconciled page order, navigation destinations, four project details, timeline links, and résumé assets. Publishing the 3D robot, circle-to-pill menu, pale-blue left Resume tab, animated timeline, and current username links; deployment verification pending.
 
 - October 14, 2026: Completed the corrected Resume tab color match to Bike Bear’s left-side tab fill #9BD4D7, verified directly from its homepage SVG. Dark text preserves readability; navigation status remains KEEP. Applied locally; publication pending.
@@ -438,4 +440,4 @@ Requested changes:
 - October 13, 2026: Created this document from current index.html and site.js. No website content or design changes made.
 - Website files: index.html (structure and visible copy), site.js (project details and behavior), robot.js (3D mascot and eased hero motion), assets/vendor (Three.js and license), site.css (appearance), editor.html (visual editor).
 - Current pending changes: None.
-- Publication state: All completed changes authorized for publication October 14, 2026; deployment verification pending.
+- Publication state: Published and verified live October 14, 2026. No requested changes or publication work pending.

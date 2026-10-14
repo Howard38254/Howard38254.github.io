@@ -30,3 +30,5 @@
 - [x] Configure GitHub Pages (main branch, repository root).
 - [x] Upload the selected design for publication after Howard's explicit request.
 - [x] Verify deployed homepage, menu, UAV detail, contact links; update state and editing instructions.
+
+October 14, 2026 launch update: all completed website changes published and verified, including 3D robot, animated menu/timeline, pale-blue left Resume tab and résumé assets. No publication pending. Remaining items above are future content improvements.

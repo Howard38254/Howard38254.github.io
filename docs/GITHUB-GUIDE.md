@@ -2,11 +2,13 @@
 
 A repository stores the website files and their version history. GitHub Pages serves those files as a website employers can visit. A custom domain is optional.
 
-Recommended personal site: https://howardhuangme.github.io using a repository named HowardHuangME.github.io. Account name was discovered through the connected GitHub account; confirm it is the intended owner. Only one account-level Pages site is allowed per account.
+Current published personal site: https://howardhuangme.github.io using a repository named HowardHuangME.github.io. HowardHuangME is the configured repository owner. Only one account-level Pages site is allowed per account.
 
 An accessible existing repository is HowardHuangME/morph-lab.github.io. Its name does not make it an account-level site. If configured with GitHub Pages and no custom domain, its normal project-site address would be https://howardhuangme.github.io/morph-lab.github.io/. Hosting is not verified. Prefer a separate personal portfolio repository unless Howard chooses otherwise.
 
-## Setup after design review
+Current publication verified October 14, 2026. Website files include index.html, site.css, site.js, robot.js, résumé PDF/preview, and bundled Three.js. WEBSITE-CONTENT.md is the main editing source.
+
+## Setup reference
 1. Sign into GitHub as HowardHuangME.
 2. Create a new public repository named HowardHuangME.github.io. Public repositories support Pages on GitHub Free.
 3. Put the approved website files and docs in the repository. For a simple static site, index.html belongs at the root.

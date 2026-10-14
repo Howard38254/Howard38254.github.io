@@ -2,7 +2,7 @@
 
 Updated: October 14, 2026
 
-Stage: all October 14 updates authorized for publication; deployment verification pending. Repository: https://github.com/HowardHuangME/HowardHuangME.github.io. Website: https://howardhuangme.github.io/.
+Stage: all October 14 updates published and verified live. Repository: https://github.com/HowardHuangME/HowardHuangME.github.io. Website: https://howardhuangme.github.io/.
 
 Current redesign: Bike Bear inspired yellow portfolio. Source: index.html, site.css, site.js, robot.js and assets/. Visual editor: editor.html. Previous Refined Builder template retained as an archive. No build required. Publishing was explicitly authorized by Howard on October 13, 2026; redesign requested in the same session.
 
@@ -12,7 +12,7 @@ Redesign verification: syntax check passed; desktop and 390px mobile opening vis
 
 October 14, 2026: Name placement changes reverted; original header restored. No publication made.
 
-October 14, 2026: Original 3D robot upgrade applied locally using WebGL and bundled Three.js; eased scroll/pointer motion, rounded joints, lighting, blinking and wave. CSS fallback retained. Desktop and mobile rendering, click-to-wave, and pause/resume checked; publication authorized October 14; deployment verification pending.
+October 14, 2026: Original 3D robot upgrade applied locally using WebGL and bundled Three.js; eased scroll/pointer motion, rounded joints, lighting, blinking and wave. CSS fallback retained. Desktop and mobile rendering, click-to-wave, and pause/resume checked; published and verified October 14.
 
 October 14, 2026: Top-right controls now animate from a white circle to the full pill on hover or keyboard focus; touch devices retain the expanded controls. Applied locally; publication pending.
 
@@ -21,6 +21,8 @@ October 14, 2026: Fixed vertical Resume tab added at the middle-left edge, openi
 October 14, 2026: Experience converted to an animated vertical overview timeline spanning robotics, research, entrepreneurship, and pinball, with an interests note. Existing project dialogs reused; education dates remain pending confirmation. Applied locally; publication pending.
 
 October 14, 2026: User authorized publication of all updates, including the final pale-blue (#9BD4D7) Resume tab. WEBSITE-CONTENT.md takes precedence over older guides.
+
+Live verification October 14, 2026: Website commit 015bdad deployed. All seven main site/assets responses match local file bytes; WebGL robot renders and résumé preview loads. Pale-blue tab, timeline, menu and current username links are live. No requested publication work pending.
 
 ## Confirmed requirements
 - Employer-facing personal portfolio for Howard Huang.

@@ -2,6 +2,8 @@
 
 Updated October 14, 2026. Howard requested closer alignment with https://www.bikebear.com.my/, including its animations and formatting.
 
+All current features published and verified October 14, 2026.
+
 ## Scope and reference fidelity
 The current design follows the observed yellow opening, oversized typography, mascot over the headline, pill menu, moving text strips, large typography-led sections, gallery, and giant contact footer. This is an adaptation using Howard's content and original robot and project artwork. The reference could not be reloaded reliably during implementation; exact timing and every reference interaction are not verified. The robot is an original procedural WebGL 3D model in robot.js, rendered with locally bundled Three.js. It has rounded metallic parts, joints, lighting, a soft shadow, green eyes, and an HH badge. CSS shapes remain as the fallback. The reference timed out again on October 14; exact motion parity is unverified.
 
