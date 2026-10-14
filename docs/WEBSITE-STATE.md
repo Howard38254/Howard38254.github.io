@@ -4,7 +4,9 @@ Updated: October 13, 2026
 
 Stage: first website version published and verified live. Repository: https://github.com/Howard38254/Howard38254.github.io. Website: https://howard38254.github.io/.
 
-Public homepage: index.html. Design source and visual editor: template/refined-builder.html. Rebuild command: node build.cjs. Website files and Markdown documentation are saved on GitHub and locally. Publishing was explicitly authorized by Howard on October 13, 2026.
+Current redesign: Bike Bear inspired yellow portfolio. Source: index.html, site.css, site.js. Visual editor: editor.html. Previous Refined Builder template retained as an archive. No build required. Publishing was explicitly authorized by Howard on October 13, 2026; redesign requested in the same session.
+
+New sections: three approach chapters, about, skills, experience, four-project gallery, personal interests, contact. New motion: pointer/scroll robot response, arm wave, moving text strips, sticky chapters, reveals, hover treatments, rotating badges. See docs/BIKEBEAR-DESIGN.md for fidelity limits and editing map.
 
 ## Confirmed requirements
 - Employer-facing personal portfolio for Howard Huang.
